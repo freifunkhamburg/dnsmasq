@@ -1,0 +1,19 @@
+interface=br-ffhh
+listen-address=127.0.0.1
+no-dhcp-interface=br-ffhh
+no-dhcp-interface=lo
+bind-interfaces
+except-interface=lo
+
+log-facility=/var/log/dnsmasq.log
+
+domain-needed
+#bogus-priv ffhh reverse does not work with this enabled
+no-resolv
+no-hosts
+
+cache-size=4096
+
+# follow the order as defined, so that VPN is used before trying srv01/gw01
+strict-order
+
