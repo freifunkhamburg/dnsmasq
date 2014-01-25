@@ -4,36 +4,49 @@ server=213.73.91.35@mullvad # dnscache.berlin.ccc.de
 server=fd51:2bb2:fd0d::101 # srv01
 server=fd51:2bb2:fd0d::e01 # and gw01 as backup if vpn is down
 
-# dn42
+# dn42 via forward
 server=/dn42/172.22.0.53
 server=/22.172.in-addr.arpa/172.22.0.53
 server=/23.172.in-addr.arpa/172.22.0.53
 
-# ff Augsburg
+# ff Augsburg via forward
 server=/ffa/10.11.10.15
 server=/ffa/10.11.0.8
+
+# ff Chemnitz via forward
+server=/ffc/10.8.6.6
 
 # ff tlds via srv01
 server=/ffhh/fd51:2bb2:fd0d::101
 server=/ffhl/fd51:2bb2:fd0d::101
 server=/ffki/fd51:2bb2:fd0d::101
-server=/dn42/fd51:2bb2:fd0d::101
 server=/hack/fd51:2bb2:fd0d::101
+
+# forwarded tlds via srv01 as backup
+server=/dn42/fd51:2bb2:fd0d::101
+server=/ffa/fd51:2bb2:fd0d::101
 server=/ffc/fd51:2bb2:fd0d::101
 
 # ff tlds via gw01
 server=/ffhh/fd51:2bb2:fd0d::e01
 server=/ffhl/fd51:2bb2:fd0d::e01
 server=/ffki/fd51:2bb2:fd0d::e01
-server=/dn42/fd51:2bb2:fd0d::e01
 server=/hack/fd51:2bb2:fd0d::e01
+
+# forwarded tlds via gw01 as backup
+server=/dn42/fd51:2bb2:fd0d::e01
+server=/ffa/fd51:2bb2:fd0d::e01
 server=/ffc/fd51:2bb2:fd0d::e01
 
-# ff reverse via srv01
+# ffhh reverse via srv01
 server=/112.10.in-addr.arpa/fd51:2bb2:fd0d::101
 server=/d.0.d.f.2.b.b.2.1.5.d.f.ip6.arpa/fd51:2bb2:fd0d::101
 
-# ff reverse via gw01
+# ffhh reverse via gw01
 server=/112.10.in-addr.arpa/fd51:2bb2:fd0d::e01
 server=/d.0.d.f.2.b.b.2.1.5.d.f.ip6.arpa/fd51:2bb2:fd0d::e01
 
+# ffhl reverse
+server=/130.10.in-addr.arpa/fdef:ffc0:3dd7::a01
+server=/130.10.in-addr.arpa/fdef:ffc0:3dd7::c01
+server=/130.10.in-addr.arpa/fdef:ffc0:3dd7::e01
