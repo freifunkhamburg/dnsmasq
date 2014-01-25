@@ -19,6 +19,7 @@ server=/ffhl/fd51:2bb2:fd0d::101
 server=/ffki/fd51:2bb2:fd0d::101
 server=/dn42/fd51:2bb2:fd0d::101
 server=/hack/fd51:2bb2:fd0d::101
+server=/ffc/fd51:2bb2:fd0d::101
 
 # ff tlds via gw01
 server=/ffhh/fd51:2bb2:fd0d::e01
@@ -26,6 +27,7 @@ server=/ffhl/fd51:2bb2:fd0d::e01
 server=/ffki/fd51:2bb2:fd0d::e01
 server=/dn42/fd51:2bb2:fd0d::e01
 server=/hack/fd51:2bb2:fd0d::e01
+server=/ffc/fd51:2bb2:fd0d::e01
 
 # ff reverse via srv01
 server=/112.10.in-addr.arpa/fd51:2bb2:fd0d::101
