@@ -50,3 +50,6 @@ server=/d.0.d.f.2.b.b.2.1.5.d.f.ip6.arpa/fd51:2bb2:fd0d::e01
 server=/130.10.in-addr.arpa/fdef:ffc0:3dd7::a01
 server=/130.10.in-addr.arpa/fdef:ffc0:3dd7::c01
 server=/130.10.in-addr.arpa/fdef:ffc0:3dd7::e01
+server=/7.d.d.3.0.c.f.f.f.e.d.f.ip6.arpa/fdef:ffc0:3dd7::a01
+server=/7.d.d.3.0.c.f.f.f.e.d.f.ip6.arpa/fdef:ffc0:3dd7::c01
+server=/7.d.d.3.0.c.f.f.f.e.d.f.ip6.arpa/fdef:ffc0:3dd7::e01
