@@ -21,5 +21,6 @@ fi
 
 ps -C "dnsmasq" 2>&1>/dev/null
 if [[ $? -ne 0 ]]
+then
     /usr/sbin/service dnsmasq restart
 fi
