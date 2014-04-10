@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Simple script to update the dnsmasq files from git
 
 # CONFIGURE THIS TO YOUR GIT DIRECTORY
