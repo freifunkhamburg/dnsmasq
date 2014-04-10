@@ -1,9 +1,6 @@
 interface=br-ffhh
-listen-address=127.0.0.2
 no-dhcp-interface=br-ffhh
 no-dhcp-interface=lo
-bind-interfaces
-except-interface=lo
 
 log-facility=/var/log/dnsmasq.log
 
