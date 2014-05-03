@@ -9,6 +9,14 @@ server=/dn42/172.22.0.53
 server=/22.172.in-addr.arpa/172.22.0.53
 server=/23.172.in-addr.arpa/172.22.0.53
 
+# chaosvpn via forward
+server=/hack/172.31.0.5
+server=/31.172.in-addr.arpa/172.31.0.5
+server=/100.10.in-addr.arpa/172.31.0.5
+server=/101.10.in-addr.arpa/172.31.0.5
+server=/102.10.in-addr.arpa/172.31.0.5
+server=/103.10.in-addr.arpa/172.31.0.5
+
 # ff Augsburg via forward
 server=/ffa/10.11.10.15
 server=/ffa/10.11.0.8
@@ -24,6 +32,7 @@ server=/hack/fd51:2bb2:fd0d::101
 
 # forwarded tlds via srv01 as backup
 server=/dn42/fd51:2bb2:fd0d::101
+server=/hack/fd51:2bb2:fd0d::101
 server=/ffa/fd51:2bb2:fd0d::101
 server=/ffc/fd51:2bb2:fd0d::101
 
@@ -35,6 +44,7 @@ server=/hack/fd51:2bb2:fd0d::e01
 
 # forwarded tlds via gw01 as backup
 server=/dn42/fd51:2bb2:fd0d::e01
+server=/hack/fd51:2bb2:fd0d::e01
 server=/ffa/fd51:2bb2:fd0d::e01
 server=/ffc/fd51:2bb2:fd0d::e01
 
