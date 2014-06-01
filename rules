@@ -1,5 +1,5 @@
 # all other queries via vpn
-server=85.214.20.141@mullvad # FoeBud
+# down? server=85.214.20.141@mullvad # FoeBud
 server=213.73.91.35@mullvad # dnscache.berlin.ccc.de
 server=fd51:2bb2:fd0d::101 # srv01
 server=fd51:2bb2:fd0d::e01 # and gw01 as backup if vpn is down
