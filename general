@@ -12,5 +12,5 @@ no-hosts
 cache-size=4096
 
 # follow the order as defined, so that VPN is used before trying srv01/gw01
-strict-order
+#strict-order
 
