@@ -9,7 +9,7 @@ USER=ffdnsmasq
 
 cd $GIT_REPO
 
-su -c "git pull" $USER
+su -c "git pull --quiet" $USER
 
 if ! cmp $GIT_REPO/rules /etc/dnsmasq.d/rules >/dev/null 2>&1 || ! cmp $GIT_REPO/general /etc/dnsmasq.d/general >/dev/null 2>&1 ;
 then
