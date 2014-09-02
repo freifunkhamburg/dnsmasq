@@ -2,6 +2,8 @@ interface=br-ffhh
 no-dhcp-interface=br-ffhh
 no-dhcp-interface=lo
 
+dns-forward-max=512
+
 log-facility=/var/log/dnsmasq.log
 
 domain-needed
