@@ -11,6 +11,9 @@ server=/dn42/172.22.0.53
 server=/22.172.in-addr.arpa/172.22.0.53
 server=/23.172.in-addr.arpa/172.22.0.53
 
+# namecoins .bit via forward
+server=/bit/144.76.8.73
+
 # ff Augsburg via forward
 server=/ffa/10.11.10.15
 server=/ffa/10.11.0.8
