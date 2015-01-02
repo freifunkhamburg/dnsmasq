@@ -3,8 +3,7 @@
 server=85.214.20.141@mullvad # FoeBud
 server=194.150.168.168@mullvad # dns.as250.net
 server=213.73.91.35@mullvad # dnscache.berlin.ccc.de
-server=fd51:2bb2:fd0d::101 # srv01
-server=fd51:2bb2:fd0d::e01 # and gw01 as backup if vpn is down
+server=2a03:2267::101 # srv01
 
 # dn42 via forward
 server=/dn42/172.22.0.53
@@ -22,50 +21,27 @@ server=/ffa/10.11.0.8
 server=/ffc/10.8.6.6
 
 # ff tlds via srv01
-server=/ffhh/fd51:2bb2:fd0d::101
-server=/ffhl/fd51:2bb2:fd0d::101
-server=/ffki/fd51:2bb2:fd0d::101
-server=/hack/fd51:2bb2:fd0d::101
+server=/ffhh/2a03:2267::101
+server=/ffhl/2a03:2267::101
+server=/ffki/2a03:2267::101
+server=/hack/2a03:2267::101
 
 # chaosvpn via srv01
-server=/hack/fd51:2bb2:fd0d::101
-server=/31.172.in-addr.arpa/fd51:2bb2:fd0d::101
-server=/100.10.in-addr.arpa/fd51:2bb2:fd0d::101
-server=/101.10.in-addr.arpa/fd51:2bb2:fd0d::101
-server=/102.10.in-addr.arpa/fd51:2bb2:fd0d::101
-server=/103.10.in-addr.arpa/fd51:2bb2:fd0d::101
+server=/hack/2a03:2267::101
+server=/31.172.in-addr.arpa/2a03:2267::101
+server=/100.10.in-addr.arpa/2a03:2267::101
+server=/101.10.in-addr.arpa/2a03:2267::101
+server=/102.10.in-addr.arpa/2a03:2267::101
+server=/103.10.in-addr.arpa/2a03:2267::101
 
 # forwarded tlds via srv01 as backup
-server=/dn42/fd51:2bb2:fd0d::101
-server=/ffa/fd51:2bb2:fd0d::101
-server=/ffc/fd51:2bb2:fd0d::101
-
-# ff tlds via gw01
-server=/ffhh/fd51:2bb2:fd0d::e01
-server=/ffhl/fd51:2bb2:fd0d::e01
-server=/ffki/fd51:2bb2:fd0d::e01
-server=/hack/fd51:2bb2:fd0d::e01
-
-# chaosvpn via srv01
-server=/hack/fd51:2bb2:fd0d::e01
-server=/31.172.in-addr.arpa/fd51:2bb2:fd0d::e01
-server=/100.10.in-addr.arpa/fd51:2bb2:fd0d::e01
-server=/101.10.in-addr.arpa/fd51:2bb2:fd0d::e01
-server=/102.10.in-addr.arpa/fd51:2bb2:fd0d::e01
-server=/103.10.in-addr.arpa/fd51:2bb2:fd0d::e01
-
-# forwarded tlds via gw01 as backup
-server=/dn42/fd51:2bb2:fd0d::e01
-server=/ffa/fd51:2bb2:fd0d::e01
-server=/ffc/fd51:2bb2:fd0d::e01
+server=/dn42/2a03:2267::101
+server=/ffa/2a03:2267::101
+server=/ffc/2a03:2267::101
 
 # ffhh reverse via srv01
-server=/112.10.in-addr.arpa/fd51:2bb2:fd0d::101
-server=/d.0.d.f.2.b.b.2.1.5.d.f.ip6.arpa/fd51:2bb2:fd0d::101
-
-# ffhh reverse via gw01
-server=/112.10.in-addr.arpa/fd51:2bb2:fd0d::e01
-server=/d.0.d.f.2.b.b.2.1.5.d.f.ip6.arpa/fd51:2bb2:fd0d::e01
+server=/112.10.in-addr.arpa/2a03:2267::101
+server=/d.0.d.f.2.b.b.2.1.5.d.f.ip6.arpa/2a03:2267::101
 
 # ffhl reverse
 server=/130.10.in-addr.arpa/fdef:ffc0:3dd7::a01
